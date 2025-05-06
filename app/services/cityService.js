@@ -1,4 +1,4 @@
-const City = require('../models/city.model');
+const City = require('models/city.model');
 
 const cityService = {
   async findAll(options = {}) {
